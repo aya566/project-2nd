@@ -1,0 +1,149 @@
+*{
+    font-family: 'Skranji', cursive;
+    margin: 0;
+    padding: 0;
+    color: rgba(247, 209, 159, 0.83);
+}
+body{
+    background-color: black;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color:rgba(68, 52, 51, 0.868) ;
+    border-radius: 30px;
+    margin-top: 70px;
+   margin-left: 250px;
+   margin-right: 250px;
+   font-size: 20px;
+   padding: 15px;
+   
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    color: rgb(175, 127, 97);
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(203, 137, 95);
+}
+h2{
+    font-size: 45px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px  rgba(247, 209, 159, 0.69);
+}
+img:hover{
+    transform: scale(1.2) ease;
+}
+.card{
+    width: 200px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+#detailshome , #buyhome , #read{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px rgba(247, 209, 159, 0.842) solid;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#detailshome:hover , #buyhome:hover ,#read:hover{
+    background-color:  rgba(137, 94, 68, 0.455);
+} 
+#read{
+    margin-left: 50px;
+   
+}
+.title{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.novels{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+}
+.price{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.detailswindow{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.456);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+.details{
+    width: 500px;
+    height: 600px;
+    font-size: 20px;
+    align-items: center;
+    
+    margin-left: 35%;
+    margin-top: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+.detail{
+    margin-left: 20px;
+    
+   
+}
+h3{
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.details1{
+    margin-top: 10px;
+}
+.close{
+   
+    
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.605);
+    width: 15px;
+    height: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-top: 5px;
+   margin-left: 970px;
+   margin-top: 50px;
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.activeee{
+    color: rgb(203, 137, 95);
+}

@@ -1,0 +1,88 @@
+ *{
+    font-family: 'Skranji', cursive;
+    margin: 0;
+    padding: 0;
+    color: rgba(247, 209, 159, 0.83);
+}
+body{
+    background-image:linear-gradient(rgba(68, 52, 51, 0.37),rgb(0, 0, 0)) ,url(../img/login.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.icons{
+    margin-left: 220px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(68, 52, 51);
+    height: 98vh;
+    width: 45%;
+    margin-left: 50%;
+    border: 3px  rgb(175, 127, 97) solid;
+   margin-top: 0.5%;
+    border-radius: 60px;
+}
+.title{
+    margin-top: 70px;
+    
+    margin-left: 50px;
+    margin-right: 25px;
+}
+strong{
+    font-size: 30px;
+}
+.inputs{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+input{
+    background-color:  rgba(137, 94, 68, 0.137);
+    padding: 7px;
+    width: 300px;
+    border: 1px  rgb(175, 127, 97) solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.check{
+    margin-top: 40px;
+    margin-left: -100px;
+    
+}
+em{
+    margin-top: 40px;
+    margin-left: -130px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px rgba(247, 209, 159, 0.842) solid;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+button:hover{
+    background-color:  rgba(137, 94, 68, 0.574);
+}
+p{
+    font-size: 20px;
+    
+    padding-top: 5px;
+}
+.op{
+    width: 500px;
+    height: 100px;
+}
